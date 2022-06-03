@@ -1,0 +1,16 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ *main - Entry point
+ *generate random no store in var n
+ *output is greater than 5 if n is>5
+ *output is 0 if n =0
+ *output less than 6 and not 0 
+ *
+ *Return: 0
+ */
+
+int main (void)
+  
