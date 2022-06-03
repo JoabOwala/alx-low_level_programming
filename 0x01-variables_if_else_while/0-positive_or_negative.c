@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-* generate random no assign to var n
-* if no greater tahn 0 output positive
-* if no less than 0 output negative
-* if no equals 0 output zero
-*Return 
+*main - Entry point
+*generate random no assign to var n
+*if no greater tahn 0 output positive
+*if no less than 0 output negative
+*if no equals 0 output zero
+*Return: 0
 */
 int main(void)
 {
