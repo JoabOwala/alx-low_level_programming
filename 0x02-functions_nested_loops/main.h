@@ -7,7 +7,7 @@
 #include <limits.h>
 #include <unistd.h>
 
-typrdef stuct format
+typedef struct format
 {
   char *id;
   int (*f)();
