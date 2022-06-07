@@ -1,41 +1,19 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdarg.h>
-#include <limits.h>
-#include <unistd.h>
-
-typedef struct format
-{
-  char *id;
-  int (*f)();
-} convert_match;
-
-int printf_pointer(va_list val);
-int printf_hex_aux(unsigned long int num);
-int printf_HEX_aux(unsigned int num);
-int printf_exclusive_string(va_list val);
-int printf_HEX(va_list val);
-int printf_hex(va_list val);
-int printf_oct(va_list val);
-int printf_unsigned(va_list args);
-int printf_bin(va_list val);
-int printf_srev(va_list args);
-int printf_rot13(va_list args);
-int printf_int(va_list args);
-int printf_dec(va_list args);
-int _strlen(char *s);
-int *_strcpy(char *dest, char *src);
-int _strlenc(const char *s);
-int rev_string(char *s);
-int _strlenc(const char *s);
-int printf_37(void);
-int ptintf_char(va_list val);
-int printf_string(va_list val);
-int _putchar(char c);
-int _printf(const char *format, ...);
+char _putchar(char c);
+void print_alphabet(void);
+void print_alphabet_x10(void);
+int _islower(int c);
+int _isalpha(int c);
+int print_sign(int n);
+int _abs(int);
+int print_last_digit(int nld);
+void jack_bauer(void);
+void times_table(void);
+int add(int one, int two);
+void print_to_98(int n);
+void print_times_table(int n);
 
 #endif
 
