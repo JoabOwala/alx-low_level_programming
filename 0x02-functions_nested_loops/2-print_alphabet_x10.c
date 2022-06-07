@@ -1,21 +1,20 @@
 #include "main.h"
 /**
- *main - check the code
- *
- *Return: Always 0.
- */
+*main - check the code
+*
+*Return: Always 0.
+*/
 void print_alphabet_x10(void)
 {
-  int myn, ter;
-  ter = 0;
-
-  while (ter < 10)
-    {
-      for (myn = 'a'; myn <= 'z'; n++)
-	{
-	  _putchar(n);
-	}
-      ter++;
-      _putchar('n');
-    }
+int n, co;
+co = 0;
+while (co < 10)
+{
+for (n = 'a'; n <= 'z'; n++)
+{
+_putchar(n);
+}
+co++;
+_putchar('\n');
+}
 }
