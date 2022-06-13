@@ -23,6 +23,6 @@ number /= inc;
 
 }
 }
-printf("%d\n", number);
+printf("%ld\n", number);
 return (0);
 }
