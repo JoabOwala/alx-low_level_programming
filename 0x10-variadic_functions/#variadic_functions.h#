@@ -7,12 +7,12 @@ int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsined int n, ...);
 void print_all(const char *const format, ...);
-void print_a_char(char *separator, va_list args);
-void print_a_integer(char *separator, va_list args);
-void print_a_float(char *separator, va_list args);
-void print_a_char_ptr(char *separator, va_list args);
+void printchar(va_list list);
+void printint(va_list list);
+void printfloat(va_list list);
+void printchar(va_list list);
 
-typedef struct format_types
+typedef struct checker
 {
   char *type;
   void (*f)();
