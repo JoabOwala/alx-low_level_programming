@@ -33,7 +33,7 @@ exit(99);
 }
 if (r < 0)
 {
-printf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 exit(98);
 }
 a = close(fd_r);
